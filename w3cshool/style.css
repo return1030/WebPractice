@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+img{
+    vertical-align: middle;
+}
+
+header{
+    height: 70px;
+    border: 3px solid green;
+    position: relative;
+}
+
+header ul li{
+    display: inline;
+}
+
+#left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+#right{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+#login{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
