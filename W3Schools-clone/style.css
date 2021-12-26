@@ -58,7 +58,7 @@ header ul li{
     font-size: 18px;
 }
 
-#html ul{
+li{
     list-style: none;
 }
 
@@ -98,4 +98,36 @@ a{
 
 .button3 a{
     color:black;
+}
+
+#html #box{
+    display: inline-block;
+    width: 90%;
+    background-color: rgb(185, 199, 211);
+    text-align: left;
+    color: black;
+    border-radius: 20px;
+}
+
+#box h2{
+    margin-left: 5%;
+    margin-top: 18px;
+}
+
+#box pre{
+    background-color: white;
+    margin: 20px 40px;
+}
+
+#box li{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin: 18px 5%;
+    background-color: rgb(74, 138, 74);
+    color: white;
+}
+
+#box a{
+    color: white;
 }
