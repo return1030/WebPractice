@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+img{
+    vertical-align: middle;
+}
+
+header{
+    height: 80px;
+    position: relative;
+}
+
+header ul li{
+    display: inline;
+}
+
+#left{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+#right{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+#login{
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-color: rgb(74, 138, 74);
+    color: white;
+}
+
+#content {
+    text-align: center;
+    background-color: rgb(28, 28, 36);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#html h1{
+    font-size: 90px;
+}
+
+#html p{
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+#html ul{
+    list-style: none;
+}
+
+#html li{
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin: 18px 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.button1{
+    background-color: rgb(74, 138, 74);
+}
+
+.button1 a{
+    color:white;
+}
+
+.button2{
+    background-color: rgb(221, 221, 160);
+}
+
+.button2 a{
+    color:black;
+}
+
+.button3{
+    background-color:white;
+}
+
+.button3 a{
+    color:black;
+}
