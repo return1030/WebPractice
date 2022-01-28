@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: azure;
+}
+
+.upper_crown{
+    width: 300px;
+    position: relative;
+    left: 100px;
+}
+
+.bottom_crown{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    right: 100px;
+}
+
+.code_image{
+    width:300px;
+}
